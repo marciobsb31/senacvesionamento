@@ -45,8 +45,11 @@ public class listagemVIEW extends javax.swing.JFrame {
 
         listaProdutos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
+                {"2", "PS4", "1500", "Vendido"},
+                {"3", "Xbox 360", "800", "Vendido"},
+                {"4", "Iphone 12", "4800", "Vendido"},
+                {"5", "PS2", "400", "A Venda"},
+                {"6", "Bicicleta Aro 29", "4200", "Vendido"},
                 {null, null, null, null},
                 {null, null, null, null}
             },

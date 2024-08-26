@@ -88,11 +88,43 @@
         <Component class="javax.swing.JTable" name="listaProdutos">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="4" rowCount="4">
-                <Column editable="true" title="ID" type="java.lang.Object"/>
-                <Column editable="true" title="Nome" type="java.lang.Object"/>
-                <Column editable="true" title="Valor" type="java.lang.Object"/>
-                <Column editable="true" title="Status" type="java.lang.Object"/>
+              <Table columnCount="4" rowCount="7">
+                <Column editable="true" title="ID" type="java.lang.Object">
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Nome" type="java.lang.Object">
+                  <Data value="PS4"/>
+                  <Data value="Xbox 360"/>
+                  <Data value="Iphone 12"/>
+                  <Data value="PS2"/>
+                  <Data value="Bicicleta Aro 29"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Valor" type="java.lang.Object">
+                  <Data value="1500"/>
+                  <Data value="800"/>
+                  <Data value="4800"/>
+                  <Data value="400"/>
+                  <Data value="4200"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Status" type="java.lang.Object">
+                  <Data value="Vendido"/>
+                  <Data value="Vendido"/>
+                  <Data value="Vendido"/>
+                  <Data value="A Venda"/>
+                  <Data value="Vendido"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">

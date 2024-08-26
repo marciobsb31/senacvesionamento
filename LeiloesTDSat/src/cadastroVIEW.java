@@ -56,7 +56,8 @@ public class cadastroVIEW extends javax.swing.JFrame {
         });
 
         btnCadastrar.setBackground(new java.awt.Color(153, 255, 255));
-        btnCadastrar.setText("Cadastrar");
+        btnCadastrar.setText("Salvar");
+        btnCadastrar.setName("btnSalvar"); // NOI18N
         btnCadastrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCadastrarActionPerformed(evt);
@@ -150,6 +151,9 @@ public class cadastroVIEW extends javax.swing.JFrame {
         
         ProdutosDAO produtodao = new ProdutosDAO();
         produtodao.cadastrarProduto(produto);
+        
+        // Exibe uma mensagem de sucesso
+    javax.swing.JOptionPane.showMessageDialog(this, "Produto cadastrado com sucesso!");    
         
     }//GEN-LAST:event_btnCadastrarActionPerformed
 

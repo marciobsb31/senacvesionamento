@@ -11,12 +11,12 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Adm
  */
-public class listagemVIEW extends javax.swing.JFrame {
+public class vendas extends javax.swing.JFrame {
 
     /**
      * Creates new form listagemVIEW
      */
-    public listagemVIEW() {
+    public vendas() {
         initComponents();
         listarProdutos();
     }
@@ -75,7 +75,7 @@ public class listagemVIEW extends javax.swing.JFrame {
 
         jScrollPane2.setViewportView(id_produto_venda);
 
-        btnVender.setText("Vender Produto");
+        btnVender.setText("Vender");
         btnVender.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVenderActionPerformed(evt);
@@ -155,14 +155,14 @@ public class listagemVIEW extends javax.swing.JFrame {
         listarProdutos();
     }//GEN-LAST:event_btnVenderActionPerformed
 
-    private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
-        //vendasVIEW vendas = new vendasVIEW(); 
-        //vendas.setVisible(true);
-    }//GEN-LAST:event_btnVendasActionPerformed
-
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnVoltarActionPerformed
+
+    private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
+        //vendasVIEW vendas = new vendasVIEW();
+        //vendas.setVisible(true);
+    }//GEN-LAST:event_btnVendasActionPerformed
 
     /**
      * @param args the command line arguments

@@ -89,7 +89,7 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="7">
-                <Column editable="true" title="ID" type="java.lang.Object">
+                <Column editable="false" title="ID" type="java.lang.Object">
                   <Data value="2"/>
                   <Data value="3"/>
                   <Data value="4"/>
@@ -98,7 +98,7 @@
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="Nome" type="java.lang.Object">
+                <Column editable="false" title="Nome" type="java.lang.Object">
                   <Data value="PS4"/>
                   <Data value="Xbox 360"/>
                   <Data value="Iphone 12"/>
@@ -107,7 +107,7 @@
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="Valor" type="java.lang.Object">
+                <Column editable="false" title="Valor" type="java.lang.Object">
                   <Data value="1500"/>
                   <Data value="800"/>
                   <Data value="4800"/>
@@ -116,7 +116,7 @@
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="Status" type="java.lang.Object">
+                <Column editable="false" title="Status" type="java.lang.Object">
                   <Data value="Vendido"/>
                   <Data value="Vendido"/>
                   <Data value="Vendido"/>
@@ -187,7 +187,7 @@
     </Container>
     <Component class="javax.swing.JButton" name="btnVender">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Vender"/>
+        <Property name="text" type="java.lang.String" value="Vender Produto"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVenderActionPerformed"/>
